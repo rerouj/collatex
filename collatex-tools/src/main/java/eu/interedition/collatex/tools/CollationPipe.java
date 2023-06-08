@@ -205,7 +205,7 @@ public class CollationPipe {
 
     private static InputStream argumentToInputStream(String arg) throws IOException {
         if ("-".equals(arg)) {
-	    return System.in;
+	        return System.in;
         }
         final File witnessFile = new File(arg);
         if (witnessFile.exists()) {

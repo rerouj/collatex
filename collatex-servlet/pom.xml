@@ -6,7 +6,7 @@
     <version>1.8-SNAPSHOT</version>
   </parent>
   <artifactId>collatex-servlet</artifactId>
-  <name>CollateX Servlet</name> 
+  <name>CollateX Servlet</name>
  <packaging>war</packaging>
 <dependencies>
 	<dependency>
@@ -30,4 +30,13 @@
 	<version>2.17</version>
 </dependency>
 </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
